@@ -1,0 +1,19 @@
+{
+  "name": "ndc-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "National Day Calendar Cloud Run proxy — Vertex AI + Google Places",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "@google-cloud/vertexai": "^1.9.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
